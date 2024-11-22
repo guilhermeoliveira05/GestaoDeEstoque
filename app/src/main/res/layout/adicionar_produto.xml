@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Campo para Nome do Produto -->
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto" />
+
+    <!-- Campo para Categoria do Produto -->
+    <EditText
+        android:id="@+id/editTextCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextNome"
+        android:hint="Categoria do Produto" />
+
+    <!-- Campo para Cor/Modelo do Produto -->
+    <EditText
+        android:id="@+id/editTextCorModelo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextCategoria"
+        android:hint="Cor/Modelo" />
+
+    <!-- Campo para Quantidade do Produto -->
+    <EditText
+        android:id="@+id/editTextQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextCorModelo"
+        android:hint="Quantidade"
+        android:inputType="number" />
+
+    <!-- Botão para Adicionar Produto -->
+    <Button
+        android:id="@+id/buttonAdicionarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuantidade"
+        android:layout_marginTop="38dp"
+        android:text="Adicionar Produto" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Nome do Produto -->
+    <TextView
+        android:id="@+id/textViewNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nome do Produto"/>
+
+    <!-- Categoria do Produto -->
+    <TextView
+        android:id="@+id/textViewCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#808080"
+        android:text="Categoria"/>
+
+    <!-- Cor/Modelo -->
+    <TextView
+        android:id="@+id/textViewCorModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#808080"
+        android:text="Cor/Modelo"/>
+
+    <!-- Quantidade -->
+    <TextView
+        android:id="@+id/textViewQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#808080"
+        android:text="Quantidade"/>
+
+</LinearLayout>
